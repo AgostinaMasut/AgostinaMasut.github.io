@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dulce</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="StyleBootstrapJavaScript.css">
+</head>
+
+<body>
+    <!--Cabecera-->
+    <header class="container p-3 my-3 bg-dark text-white">
+        <header class="row justify-content-center align-items-center minh-100">
+            <header class="col-3">
+                <img src="2934095.png" class="img-fluid" alt="Responsive image">
+            </header>
+            <header class="col-3 col-md-9" >
+                <h1>El recetario de la abuela</h1>
+            </header>
+        </header>
+    </header>
+    <!--Navegador-->
+    <nav class="container">
+        <nav class="row">
+            <nav class="col">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="PaginaPrincipalBootstrapJavaScript.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="DulceBootstrapJavaScript.html">Dulce <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="SaladoBootstrapJavaScript.html">Salado <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                        <a class="navbar-brand" href="#enlace_contacto">Contacto</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </form>
+                    </div>
+                </nav>
+            </nav>
+        </nav>
+    </nav>
+
+    <!--Recetas-->
+    <div class="container">
+        <div class="row" style="margin-top: 50px;">
+            <!--Nombre Receta-->
+            <div class="col-6 col-md-3">
+                <h2>Pavlova</h2>
+            </div>
+        </div>
+        <!--Ingredinetes y procedimiento-->
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <!--ingredientes-->
+                <table class="table" id="Ingredientes">
+                    <thead>
+                        <tr>
+                            <th>Ingrediente</th>
+                            <th>Cantidad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="2">
+                            <td>Claras de huevo</td>
+                            <td> 4 unidades </td>
+                        </tr>
+                        <tr id="3">
+                            <td>Azucar comun</td>
+                            <td>200 gr</td>
+                        </tr>
+                        <tr id="4">
+                            <td>Vinagre blanco</td>
+                            <td>1 cucharadita</td>
+                        </tr>
+                        <tr id="5">
+                            <td>Maicena</td>
+                            <td>1/2 cucharadita</td>
+                        </tr>
+                        <tr id="6">
+                            <td>Escencia de vainilla</td>
+                            <td>1/2 cucharadita</td>
+                        </tr>
+                        <tr id="7">
+                            <td>Crema de leche</td>
+                            <td>250cc</td>
+                        </tr>
+                        <tr id="8">
+                            <td>Azucar galss</td>
+                            <td>100g</td>
+                        </tr>
+                        <tr id="9">
+                            <td>Fruta </td>
+                            <td>a gusto </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-12 col-md-6">
+                <!--preparacion-->
+                <ol class="olPreparacion">
+                    <h3>
+                        Preparación
+                    </h3>
+                    <li>
+                        <p>
+                            Precalentar el horno a 140 grados
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Colocar papel manteca en la fuente a utilizar.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Batir las claras a velocidad baja/media hasta que se formen picos suaves.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Incorporar de a cucharadas el azucar hasta que este a punto nieve. Agregar espolvoreando la
+                            maicena y el vinagre, mezclar con espatula e incorporar la escencia de vainilla de la misma
+                            forma. Extender en la fuente con el papel manteca con la forma guste
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Hornear por aproximadamente 1:15 hs o hasta que el color sea como la cascara de un huevo.
+                            dejar enfriar en el horno con la puerta abierta
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Para la crema chantilly, batir a velocidad media/rapida la crema y el azucar glass, hacerlo
+                            hasta formar picos con cuidado de que no se crote.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Emplatar al momento de servir para no humeder el merengue colocando una capa del mismo, una
+                            de crema y fruta. Repetir la veces deseadas terminando con la fruta.
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <!--Nombre Receta-->
+            <div class="col-6 col-md-3">
+                <h2>Torta inverida</h2>
+            </div>
+            <div class="col-6 col-md-3">
+                <span class="badge badge-secondary" data-toggle="tooltip" title="¡Queda más rica con manzana verde!">Consejo</span>
+                </div>
+            <!--Ingredinetes y procedimiento-->
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <!--ingredientes-->
+                    <table class="table" id="Ingredientes">
+                        <thead>
+                            <tr>
+                                <th>Ingrediente</th>
+                                <th>Cantidad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="2">
+                                <td>Manteca (para el carameo)</td>
+                                <td> 1 cucharada </td>
+                            </tr>
+                            <tr id="3">
+                                <td>Azucar comun (para el caramelo)</td>
+                                <td>100 gr</td>
+                            </tr>
+                            <tr id="4">
+                                <td>Manzana (verde o roja a gusto)</td>
+                                <td>2 grandes o 3 medianas</td>
+                            </tr>
+                            <tr id="5">
+                                <td>huevos</td>
+                                <td>3 unidades</td>
+                            </tr>
+                            <tr id="6">
+                                <td>escencia de vainilla</td>
+                                <td>1/2 cucharadita</td>
+                            </tr>
+                            <tr id="7">
+                                <td>Harina Leudante</td>
+                                <td>300gr</td>
+                            </tr>
+                            <tr id="8">
+                                <td>Azucar</td>
+                                <td>150g</td>
+                            </tr>
+                            <tr id="9">
+                                <td>Leche </td>
+                                <td>250ml</td>
+                            </tr>
+                            <tr id="9">
+                                <td>Aceite </td>
+                                <td>50ml</td>
+                            </tr>
+                            <tr id="9">
+                                <td>Ralladura de naranja </td>
+                                <td>de una entera</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-12 col-md-6">
+                    <!--preparacion-->
+                    <ol class="olPreparacion">
+                        <h3>
+                            Preparación
+                        </h3>
+                        <li>
+                            <p>
+                                Precalentar el horno a 180 grados.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Colocar en un bool los huevos, el azucar, la escencia de vainilla y la ralladura de
+                                naranja. Batir.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Incorporar el aceite. Batir. Incorporarla leche, batir e ir agregando de a poco el
+                                harina.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Pelar las manzanas ( o peras por ejemplo si escoje otra fruta), cortar en rodajas finas.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Hacer el caramelo calentando el azucar dentro del molde en el que se va a realizar la
+                                torta sobre la hornalla. Luego colocar la fruta sobre toda la superficie e incorporar de
+                                a poco la masa de la torta.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Hornear por 50min arox. Desmoldar apenas la saca del horno.
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Pie de pagina-->
+    <footer class="container p-3 my-3 bg-dark text-white">
+        <footer class="row">
+            <footer class="col">
+                <a name="enlace_contacto"></a>
+                <p>Para pedir una receta que no este en la pagina<a href="ContactoBootstrapJavaScript.html">haga
+                        click</a> aqui y complete el formulario </p>
+            </footer>
+        </footer>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
